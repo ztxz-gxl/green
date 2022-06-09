@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "axios": "^0.26.0",
+    "Chart": "npm:chart@^0.1.2",
+    "child_process": "^1.0.2",
+    "core-js": "^3.19.3",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "jQuery": "npm:jquery@^3.6.0",
+    "jsdom": "^19.0.0",
+    "net": "^1.0.2",
+    "nuxt": "^2.15.8",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "tls": "^0.0.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "80"
+    }
+  }
+}
